@@ -1,0 +1,818 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\ACH_001.PNG" />
+    <None Remove="Icons\ACH_002.PNG" />
+    <None Remove="Icons\ACH_003.PNG" />
+    <None Remove="Icons\ACH_004.PNG" />
+    <None Remove="Icons\ACH_005.PNG" />
+    <None Remove="Icons\ACH_006.PNG" />
+    <None Remove="Icons\ACH_007.PNG" />
+    <None Remove="Icons\ACH_008.PNG" />
+    <None Remove="Icons\ACH_009.PNG" />
+    <None Remove="Icons\ACH_010.PNG" />
+    <None Remove="Icons\ACH_011.PNG" />
+    <None Remove="Icons\ACH_012.PNG" />
+    <None Remove="Icons\ACH_013.PNG" />
+    <None Remove="Icons\ACH_014.PNG" />
+    <None Remove="Icons\ACH_015.PNG" />
+    <None Remove="Icons\ACH_016.PNG" />
+    <None Remove="Icons\ACH_017.PNG" />
+    <None Remove="Icons\ACH_018.PNG" />
+    <None Remove="Icons\ACH_019.PNG" />
+    <None Remove="Icons\ACH_020.PNG" />
+    <None Remove="Icons\ACH_021.PNG" />
+    <None Remove="Icons\ACH_022.PNG" />
+    <None Remove="Icons\ACH_023.PNG" />
+    <None Remove="Icons\ACH_024.PNG" />
+    <None Remove="Icons\ACH_025.PNG" />
+    <None Remove="Icons\ACH_026.PNG" />
+    <None Remove="Icons\ACH_027.PNG" />
+    <None Remove="Icons\ACH_028.PNG" />
+    <None Remove="Icons\ACH_029.PNG" />
+    <None Remove="Icons\ACH_030.PNG" />
+    <None Remove="Icons\ACH_031.PNG" />
+    <None Remove="Icons\ACH_032.PNG" />
+    <None Remove="Icons\ACH_033.PNG" />
+    <None Remove="Icons\ACH_034.PNG" />
+    <None Remove="Icons\ACH_035.PNG" />
+    <None Remove="Icons\ACH_036.PNG" />
+    <None Remove="Icons\ACH_037.PNG" />
+    <None Remove="Icons\ACH_038.PNG" />
+    <None Remove="Icons\ACH_039.PNG" />
+    <None Remove="Icons\ACH_040.PNG" />
+    <None Remove="Icons\ACH_041.PNG" />
+    <None Remove="Icons\ACH_042.PNG" />
+    <None Remove="Icons\ACH_043.PNG" />
+    <None Remove="Icons\ACH_044.PNG" />
+    <None Remove="Icons\ACH_045.PNG" />
+    <None Remove="Icons\ACH_046.PNG" />
+    <None Remove="Icons\ACH_047.PNG" />
+    <None Remove="Icons\ACH_048.PNG" />
+    <None Remove="Icons\ACH_049.PNG" />
+    <None Remove="Icons\ACH_050.PNG" />
+    <None Remove="Icons\ACH_051.PNG" />
+    <None Remove="Icons\ACH_052.PNG" />
+    <None Remove="Icons\ACH_053.PNG" />
+    <None Remove="Icons\ACH_054.PNG" />
+    <None Remove="Icons\ACH_055.PNG" />
+    <None Remove="Icons\ACH_056.PNG" />
+    <None Remove="Icons\ACH_057.PNG" />
+    <None Remove="Icons\ACH_058.PNG" />
+    <None Remove="Icons\ACH_059.PNG" />
+    <None Remove="Icons\ACH_060.PNG" />
+    <None Remove="Icons\ACH_061.PNG" />
+    <None Remove="Icons\ACH_062.PNG" />
+    <None Remove="Icons\ACH_063.PNG" />
+    <None Remove="Icons\ACH_064.PNG" />
+    <None Remove="Icons\ACH_065.PNG" />
+    <None Remove="Icons\ACH_066.PNG" />
+    <None Remove="Icons\ACH_067.PNG" />
+    <None Remove="Icons\ACH_068.PNG" />
+    <None Remove="Icons\ACH_069.PNG" />
+    <None Remove="Icons\ACH_070.PNG" />
+    <None Remove="Icons\ACH_071.PNG" />
+    <None Remove="Icons\ACH_072.PNG" />
+    <None Remove="Icons\ACH_073.PNG" />
+    <None Remove="Icons\ACH_074.PNG" />
+    <None Remove="Icons\ACH_075.PNG" />
+    <None Remove="Icons\ACH_076.PNG" />
+    <None Remove="Icons\ACH_077.PNG" />
+    <None Remove="Icons\ACH_078.PNG" />
+    <None Remove="Icons\ACH_079.PNG" />
+    <None Remove="Icons\ACH_080.PNG" />
+    <None Remove="Icons\ACH_081.PNG" />
+    <None Remove="Icons\ACH_082.PNG" />
+    <None Remove="Icons\ACH_083.PNG" />
+    <None Remove="Icons\ACH_084.PNG" />
+    <None Remove="Icons\ACH_085.PNG" />
+    <None Remove="Icons\ACH_086.PNG" />
+    <None Remove="Icons\ACH_087.PNG" />
+    <None Remove="Icons\ACH_088.PNG" />
+    <None Remove="Icons\ACH_089.PNG" />
+    <None Remove="Icons\ACH_090.PNG" />
+    <None Remove="Icons\ACH_091.PNG" />
+    <None Remove="Icons\ACH_092.PNG" />
+    <None Remove="Icons\ACH_093.PNG" />
+    <None Remove="Icons\ACH_094.PNG" />
+    <None Remove="Icons\ACH_095.PNG" />
+    <None Remove="Icons\ACH_096.PNG" />
+    <None Remove="Icons\ACH_097.PNG" />
+    <None Remove="Icons\ACH_098.PNG" />
+    <None Remove="Icons\ACH_099.PNG" />
+    <None Remove="Icons\ACH_100.PNG" />
+    <None Remove="Icons\ACH_101.PNG" />
+    <None Remove="Icons\ACH_102.PNG" />
+    <None Remove="Icons\ACH_103.PNG" />
+    <None Remove="Icons\ACH_104.PNG" />
+    <None Remove="Icons\ACH_105.PNG" />
+    <None Remove="Icons\ACH_106.PNG" />
+    <None Remove="Icons\ACH_107.PNG" />
+    <None Remove="Icons\ACH_108.PNG" />
+    <None Remove="Icons\ACH_109.PNG" />
+    <None Remove="Icons\ACH_110.PNG" />
+    <None Remove="Icons\ACH_111.PNG" />
+    <None Remove="Icons\ACH_112.PNG" />
+    <None Remove="Icons\ACH_113.PNG" />
+    <None Remove="Icons\ACH_114.PNG" />
+    <None Remove="Icons\ACH_115.PNG" />
+    <None Remove="Icons\ACH_116.PNG" />
+    <None Remove="Icons\ACH_117.PNG" />
+    <None Remove="Icons\ACH_118.PNG" />
+    <None Remove="Icons\ACH_119.PNG" />
+    <None Remove="Icons\ACH_120.PNG" />
+    <None Remove="Icons\ACH_121.PNG" />
+    <None Remove="Icons\ACH_122.PNG" />
+    <None Remove="Icons\ACH_123.PNG" />
+    <None Remove="Icons\ACH_124.PNG" />
+    <None Remove="Icons\ACH_125.PNG" />
+    <None Remove="Icons\ACH_126.PNG" />
+    <None Remove="Icons\ACH_127.PNG" />
+    <None Remove="Icons\ACH_128.PNG" />
+    <None Remove="Icons\ACH_129.PNG" />
+    <None Remove="Icons\ACH_130.PNG" />
+    <None Remove="Icons\ACH_131.PNG" />
+    <None Remove="Icons\ACH_132.PNG" />
+    <None Remove="Icons\ACH_133.PNG" />
+    <None Remove="Icons\ACH_134.PNG" />
+    <None Remove="Icons\ACH_135.PNG" />
+    <None Remove="Icons\ACH_136.PNG" />
+    <None Remove="Icons\ACH_137.PNG" />
+    <None Remove="Icons\ACH_138.PNG" />
+    <None Remove="Icons\ACH_139.PNG" />
+    <None Remove="Icons\ACH_140.PNG" />
+    <None Remove="Icons\ACH_141.PNG" />
+    <None Remove="Icons\ACH_142.PNG" />
+    <None Remove="Icons\ACH_143.PNG" />
+    <None Remove="Icons\ACH_144.PNG" />
+    <None Remove="Icons\ACH_145.PNG" />
+    <None Remove="Icons\ACH_146.PNG" />
+    <None Remove="Icons\ACH_147.PNG" />
+    <None Remove="Icons\ACH_148.PNG" />
+    <None Remove="Icons\ACH_149.PNG" />
+    <None Remove="Icons\ACH_150.PNG" />
+    <None Remove="Icons\ACH_151.PNG" />
+    <None Remove="Icons\ACH_152.PNG" />
+    <None Remove="Icons\ACH_153.PNG" />
+    <None Remove="Icons\ACH_154.PNG" />
+    <None Remove="Icons\ACH_155.PNG" />
+    <None Remove="Icons\ACH_156.PNG" />
+    <None Remove="Icons\ACH_157.PNG" />
+    <None Remove="Icons\ACH_158.PNG" />
+    <None Remove="Icons\ACH_159.PNG" />
+    <None Remove="Icons\ACH_160.PNG" />
+    <None Remove="Icons\ACH_161.PNG" />
+    <None Remove="Icons\ACH_162.PNG" />
+    <None Remove="Icons\ACH_163.PNG" />
+    <None Remove="Icons\ACH_164.PNG" />
+    <None Remove="Icons\ACH_165.PNG" />
+    <None Remove="Icons\ACH_166.PNG" />
+    <None Remove="Icons\ACH_167.PNG" />
+    <None Remove="Icons\ACH_168.PNG" />
+    <None Remove="Icons\ACH_169.PNG" />
+    <None Remove="Icons\ACH_170.PNG" />
+    <None Remove="Icons\ACH_171.PNG" />
+    <None Remove="Icons\ACH_172.PNG" />
+    <None Remove="Icons\ACH_173.PNG" />
+    <None Remove="Icons\ACH_174.PNG" />
+    <None Remove="Icons\ACH_175.PNG" />
+    <None Remove="Icons\ACH_176.PNG" />
+    <None Remove="Icons\ACH_177.PNG" />
+    <None Remove="Icons\ACH_178.PNG" />
+    <None Remove="Icons\ACH_179.PNG" />
+    <None Remove="Icons\ACH_180.PNG" />
+    <None Remove="Icons\ACH_181.PNG" />
+    <None Remove="Icons\ACH_182.PNG" />
+    <None Remove="Icons\ACH_183.PNG" />
+    <None Remove="Icons\ACH_184.PNG" />
+    <None Remove="Icons\ACH_185.PNG" />
+    <None Remove="Icons\ACH_186.PNG" />
+    <None Remove="Icons\ACH_187.PNG" />
+    <None Remove="Icons\ACH_188.PNG" />
+    <None Remove="Icons\ACH_189.PNG" />
+    <None Remove="Icons\ACH_190.PNG" />
+    <None Remove="Icons\ACH_191.PNG" />
+    <None Remove="Icons\ACH_192.PNG" />
+    <None Remove="Icons\ACH_193.PNG" />
+    <None Remove="Icons\ACH_194.PNG" />
+    <None Remove="Icons\ACH_195.PNG" />
+    <None Remove="Icons\ACH_196.PNG" />
+    <None Remove="Icons\ACH_197.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KhAchievementTracker.Tools\KhAchievementTracker.Tools.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\ACH_001.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_002.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_003.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_004.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_005.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_006.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_007.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_008.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_009.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_010.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_011.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_012.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_013.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_014.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_015.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_016.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_017.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_018.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_019.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_020.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_021.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_022.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_023.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_024.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_025.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_026.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_027.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_028.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_029.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_030.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_031.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_032.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_033.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_034.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_035.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_036.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_037.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_038.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_039.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_040.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_041.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_042.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_043.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_044.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_045.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_046.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_047.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_048.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_049.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_050.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_051.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_052.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_053.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_054.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_055.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_056.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_057.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_058.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_059.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_060.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_061.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_062.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_063.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_064.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_065.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_066.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_067.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_068.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_069.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_070.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_071.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_072.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_073.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_074.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_075.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_076.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_077.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_078.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_079.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_080.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_081.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_082.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_083.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_084.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_085.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_086.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_087.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_088.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_089.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_090.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_091.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_092.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_093.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_094.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_095.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_096.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_097.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_098.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_099.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_100.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_101.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_102.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_103.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_104.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_105.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_106.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_107.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_108.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_109.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_110.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_111.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_112.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_113.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_114.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_115.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_116.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_117.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_118.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_119.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_120.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_121.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_122.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_123.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_124.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_125.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_126.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_127.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_128.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_129.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_130.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_131.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_132.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_133.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_134.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_135.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_136.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_137.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_138.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_139.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_140.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_141.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_142.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_143.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_144.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_145.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_146.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_147.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_148.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_149.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_150.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_151.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_152.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_153.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_154.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_155.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_156.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_157.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_158.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_159.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_160.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_161.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_162.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_163.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_164.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_165.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_166.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_167.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_168.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_169.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_170.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_171.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_172.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_173.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_174.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_175.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_176.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_177.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_178.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_179.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_180.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_181.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_182.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_183.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_184.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_185.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_186.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_187.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_188.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_189.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_190.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_191.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_192.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_193.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_194.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_195.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_196.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\ACH_197.PNG">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="achievements.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
