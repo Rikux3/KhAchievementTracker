@@ -38,7 +38,7 @@ namespace KhAchievementTracker.ViewModels
         public MainViewModel()
         {
             LoadGames("achievements");
-            _watcher = new FileSystemWatcher(@"C:\temp\")
+            _watcher = new FileSystemWatcher(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "EOSAchievementHook"))
             {
                 EnableRaisingEvents = true,
                 Filter = "ach.txt"
